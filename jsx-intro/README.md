@@ -19,7 +19,3 @@ const navBar = <nav>I am a nav bar</nav>;
 const title = <h1 id='title'>Introduction to React.js: Part I</h1>;
 const panda = <img src='images/panda.jpg' alt='panda' width='500px' height='500px'>;
 ```
-
-```
-
-```
