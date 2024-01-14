@@ -18,4 +18,4 @@ const navBar = <nav>I am a nav bar</nav>;
 
 <p>In JSX, you can’t use the word class! You have to use className instead:
 This is because JSX gets translated into JavaScript, and class is a reserved word in JavaScript.
-example: <h1 className="big">Title</h1>
+"example:<h1 className="big">Title</h1>"
