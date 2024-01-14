@@ -17,8 +17,8 @@ const navBar = <nav>I am a nav bar</nav>;
 <p>A JSX attribute is written using HTML-like syntax: a name, followed by an equals sign, followed by a value. The value should be wrapped in quotes, like this:</p>
 ```
 const title = <h1 id='title'>Introduction to React.js: Part I</h1>;
-
 const panda = <img src='images/panda.jpg' alt='panda' width='500px' height='500px'>;
+```
 
 ```
 
