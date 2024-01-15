@@ -18,4 +18,11 @@ const navBar = <nav>I am a nav bar</nav>;
 
 <p>In JSX, you can’t use the word class! You have to use className instead:
 This is because JSX gets translated into JavaScript, and class is a reserved word in JavaScript.
-"example:<h1 className="big">Title</h1>"
+</p>
+
+<p>it is must to include a / in self closing tags in jsx eg img unlike html where it is not must</p>
+
+<p>Any code in between the tags of a JSX element will be read as JSX, not as regular 
+JavaScript! JSX doesn’t add numbers—it reads them as text, just like HTML.
+to treat them like js put curly braces inside the code
+</p>

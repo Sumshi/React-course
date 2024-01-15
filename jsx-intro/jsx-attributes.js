@@ -2,7 +2,7 @@
 const title = <h1 id='title'>Introduction to React.js: Part I</h1>;
 
 // example 2
-const panda = <img src='images/panda.jpg' alt='panda' width='500px' height='500px'></img>;
+const panda = <img src='images/panda.jpg' alt='panda' width='500px' height='500px'/>;
 
 // example 3 nested jsx
 <a href="https://www.example.com">
