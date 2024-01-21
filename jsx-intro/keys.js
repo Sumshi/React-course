@@ -26,3 +26,26 @@ const peopleList = people.map((person,i) =>
 
 // root.render goes here:
 root.render(<ul>{peopleList}</ul>);
+
+
+// one can use jsx or just plain react
+
+// plain react examples
+const greatestDivEver = React.createElement(
+  "div",
+  null,
+  "i am div"
+);
+
+// using jsx example for same as above
+const greatestDivEver = <div>i am div</div>;
+
+// using jsx
+const h1 = <h1>Hello world</h1>;
+
+// using plain react
+const h1 = React.createElement(
+  "h1",
+  null,
+  "Hello world"
+);
