@@ -34,3 +34,16 @@ function Button({displayText}) {
 </p>
 
 <p>Props in React travel in a one-way direction, from the top to bottom, parent to child.</p>
+
+<h3>Props used in decision making</h3>
+<p>You can do more with props than just display them. You can also use props to make decisions
+```
+function LoginMsg(props) {
+  if (props.password === 'a-tough-password') {
+    return <h2>Sign In Successful.</h2>
+  } else {
+    return <h2>Sign In Failed..</h2>
+  }
+}
+```
+</p>
