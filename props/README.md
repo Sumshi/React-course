@@ -13,3 +13,22 @@ example:
 
 wrap the values that are not string in a curly braces
 ```
+
+<p>To make sure that a function component can use the props object, define your function component with props as the parameter:
+```
+function Button(props) {
+  return <button>{props.displayText}</button>;
+}
+</p>
+<p>In the example, props is accepted as a parameter, and the object values are accessed with the dot notation accessors pattern (object.propertyName).</p>
+
+<p>Alternatively, since props is an object, you can also use destructuring syntax like so:
+
+```
+function Button({displayText}) {
+  return <button>{displayText}</button>;
+}
+
+```
+
+</p>
