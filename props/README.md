@@ -32,3 +32,5 @@ function Button({displayText}) {
 ```
 
 </p>
+
+<p>Props in React travel in a one-way direction, from the top to bottom, parent to child.</p>
