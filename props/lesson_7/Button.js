@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Button() {
-    return (
-      <button>
-        Click me!
-      </button>
-    );
+function Button(props) {
+  return (
+    <button onClick={props.talk}>
+      Click me!
+    </button>
+  );
 }
 
 export default Button;

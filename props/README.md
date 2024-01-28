@@ -69,3 +69,29 @@ function Example() {
 ```
 
 </p>
+
+<h3>Naming events </h3>
+<p>
+Here’s how the naming convention works: first, think about what type of event you are listening for. In our example, the event type was “click”. If you are listening for a “click” event, then you name your event handler handleClick. If you are listening for a “hover” event, then you name your event handler handleHover:
+
+```
+function myClass() {
+  function handleHover() {
+    alert('I am an event handler.');
+    alert('I will be called in response to "hover" events.');
+  }
+}
+```
+
+<p>Your prop name should be the word on, plus your event type. If you are listening for a “click” event, then you name your prop onClick. If you are listening for a “hover” event, then you name your prop onHover:</p>
+```
+function myClass(){
+  function handleHover() {
+    alert('I am an event handler.');
+    alert('I will listen for a "hover" event.');
+  }
+   return <Child onHover={handleHover} />;
+}
+```
+Names like onClick only create event listeners if they’re used on HTML-like JSX elements. Otherwise, they’re just ordinary prop names.
+</p>
