@@ -47,3 +47,25 @@ function LoginMsg(props) {
 }
 ```
 </p>
+
+<p>
+In the next exercise, we will pass an event handler function as a prop. However, we have to define an event handler before we can pass one anywhere. In this exercise, we will define an event handler function.
+
+```
+import React from 'react';
+
+function Example() {
+  function handleEvent() {
+    alert(`I am an event handler.
+      If you see this message,
+      then I have been called.`);
+  }
+  return (
+      <h1 onClick={handleEvent}>
+        Hello world
+      </h1>
+    );
+}
+```
+
+</p>
