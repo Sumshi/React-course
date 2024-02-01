@@ -89,9 +89,13 @@ function myClass(){
   function handleHover() {
     alert('I am an event handler.');
     alert('I will listen for a "hover" event.');
-  }
+  }`
    return <Child onHover={handleHover} />;
 }
 ```
 Names like onClick only create event listeners if they’re used on HTML-like JSX elements. Otherwise, they’re just ordinary prop names.
+</p>
+
+<p>Every component’s props object has a property named children.
+props.children will return everything in between a component’s opening and closing JSX tags.
 </p>
